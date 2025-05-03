@@ -39,28 +39,20 @@ This repository contains the source code for the CoolTech Solutions website, a p
    ```bash
    composer install
    ```
-4. Install frontend dependencies:
-   ```bash
-   npm install
-   ```
-5. Copy the `.env.example` file to `.env`:
+4. Copy the `.env.example` file to `.env`:
    ```bash
    cp .env.example .env
    ```
-6. Generate an application key:
+5. Generate an application key:
    ```bash
    php artisan key:generate
    ```
-7. Configure the `.env` file with your database credentials and other settings.
-8. Run database migrations:
+6. Configure the `.env` file with your database credentials and other settings.
+7. Run database migrations:
    ```bash
    php artisan migrate
    ```
-9. Compile frontend assets:
-   ```bash
-   npm run dev
-   ```
-10. Start the development server:
+8. Start the development server:
     ```bash
     php artisan serve
     ```
@@ -69,10 +61,6 @@ This repository contains the source code for the CoolTech Solutions website, a p
 ## Deployment
 - **Server Setup**: Use Laravel Forge, Heroku, or a traditional server with PHP, MySQL, and a web server (e.g., Nginx or Apache).
 - **Environment**: Update `.env` for production (e.g., `APP_ENV=production`, database credentials).
-- **Assets**: Compile assets for production:
-  ```bash
-  npm run build
-  ```
 - **Optimization**: Run Laravel optimizations:
   ```bash
   php artisan config:cache
@@ -88,10 +76,9 @@ cooltech-solutions/
 ├── config/               # Configuration files
 ├── database/             # Migrations, seeders, and factories
 ├── public/               # Publicly accessible files (CSS, JS, images)
+│   └── assets/           # Website assets, CSS/JS, and other assets
 ├── resources/            # Blade templates, raw CSS/JS, and other assets
-│   ├── css/             # CSS files
-│   ├── js/              # JavaScript files
-│   └── views/           # Blade templates
+│   └── views/            # Blade templates
 ├── routes/               # Web and API routes
 ├── storage/              # Logs, cached files, and file uploads
 ├── vendor/               # Composer dependencies
@@ -111,5 +98,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or support, contact the CoolTech Solutions team at:
-- Email: support@cooltechsolutions.com
-- Website: [www.cooltechsolutions.com](https://www.cooltechsolutions.com)
+- Email: dipankarpankaj38@gmail.com
+- Website: [www.techwizi.com](https://www.techwizi.com)
