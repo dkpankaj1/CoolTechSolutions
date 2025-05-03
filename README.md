@@ -1,61 +1,115 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CoolTech Solutions Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Project Overview
+This repository contains the source code for the CoolTech Solutions website, a professional platform for an AC repair and installation service company built using Laravel with Blade templating. The website showcases services, provides contact information, and allows customers to request quotes or schedule appointments.
 
-## About Laravel
+## Features
+- **Homepage**: Introduces CoolTech Solutions with a clear value proposition and call-to-action buttons.
+- **Services Page**: Details AC repair, installation, and maintenance services with descriptions and pricing (if applicable).
+- **Contact Form**: Enables users to submit inquiries or request quotes, processed via Laravel's backend.
+- **About Us**: Highlights the company’s mission, team, and expertise in the HVAC industry.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices using Blade templates and CSS.
+- **SEO Optimization**: Structured for better search engine visibility with Laravel SEO packages or meta tags.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tech Stack
+- **Framework**: Laravel (PHP) with Blade templating
+- **Frontend**: Blade templates, CSS, JavaScript (optional: Tailwind CSS or Bootstrap)
+- **Database**: MySQL or SQLite (configurable in `.env`)
+- **Backend**: Laravel for routing, form handling, and dynamic content
+- **Hosting**: Deployed on platforms like Laravel Forge, Heroku, or traditional servers
+- **Analytics**: Google Analytics or similar for tracking user engagement
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Prerequisites
+- PHP >= 8.1
+- Composer
+- Node.js and NPM (for frontend assets)
+- MySQL or SQLite
+- Laravel CLI (optional)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cooltech-solutions.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd cooltech-solutions
+   ```
+3. Install PHP dependencies:
+   ```bash
+   composer install
+   ```
+4. Install frontend dependencies:
+   ```bash
+   npm install
+   ```
+5. Copy the `.env.example` file to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+6. Generate an application key:
+   ```bash
+   php artisan key:generate
+   ```
+7. Configure the `.env` file with your database credentials and other settings.
+8. Run database migrations:
+   ```bash
+   php artisan migrate
+   ```
+9. Compile frontend assets:
+   ```bash
+   npm run dev
+   ```
+10. Start the development server:
+    ```bash
+    php artisan serve
+    ```
+    Access the site at `http://localhost:8000`.
 
-## Learning Laravel
+## Deployment
+- **Server Setup**: Use Laravel Forge, Heroku, or a traditional server with PHP, MySQL, and a web server (e.g., Nginx or Apache).
+- **Environment**: Update `.env` for production (e.g., `APP_ENV=production`, database credentials).
+- **Assets**: Compile assets for production:
+  ```bash
+  npm run build
+  ```
+- **Optimization**: Run Laravel optimizations:
+  ```bash
+  php artisan config:cache
+  php artisan route:cache
+  php artisan view:cache
+  ```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+## Folder Structure
+```
+cooltech-solutions/
+├── app/                  # Laravel application logic (Models, Controllers, etc.)
+├── bootstrap/            # Laravel bootstrap files
+├── config/               # Configuration files
+├── database/             # Migrations, seeders, and factories
+├── public/               # Publicly accessible files (CSS, JS, images)
+├── resources/            # Blade templates, raw CSS/JS, and other assets
+│   ├── css/             # CSS files
+│   ├── js/              # JavaScript files
+│   └── views/           # Blade templates
+├── routes/               # Web and API routes
+├── storage/              # Logs, cached files, and file uploads
+├── vendor/               # Composer dependencies
+├── .env                  # Environment configuration
+└── README.md             # Project documentation
+```
 
 ## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit changes (`git commit -m "Add feature-name"`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
 
 ## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Contact
+For questions or support, contact the CoolTech Solutions team at:
+- Email: support@cooltechsolutions.com
+- Website: [www.cooltechsolutions.com](https://www.cooltechsolutions.com)
