@@ -189,5 +189,5 @@ jQuery(document).on('ready', function ($) {
     /*** =====================================
      * Google Maps
      * =====================================***/
-    initMap('map', 40.712776, -74.005974, 'assets/images/map-marker.png');
+    // initMap('map', 40.712776, -74.005974, 'assets/images/map-marker.png');
 });

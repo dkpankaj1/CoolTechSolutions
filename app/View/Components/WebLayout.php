@@ -21,6 +21,6 @@ class WebLayout extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('website.layouts.app');
+        return view('website.layouts.web');
     }
 }
