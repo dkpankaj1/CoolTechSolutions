@@ -26,6 +26,7 @@ jobs:
             cd domains/demopreview.in/public_html/coolingpoint
             git reset --hard
             git pull https://${{ secrets.SECRET_PAT }}@github.com/dkpankaj1/CoolTechSolutions.git dev
+            git checkout dev
             curl -sS https://getcomposer.org/installer | php
             php composer.phar update --optimize-autoloader
             php artisan migrate:fresh --seed --force
