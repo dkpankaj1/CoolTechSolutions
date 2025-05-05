@@ -7,7 +7,9 @@
         Start Breadcrumb
 ===========================-->
 <section class="breadcrumb_section text-center section_padding">
+  
     <ul class="breadcrumb">
+       
         <li><a href="index.html">Home</a></li>
         <li> Services</li>
     </ul>
@@ -25,9 +27,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="service_img_info_box">
-                    <img src="assets/images/shape/service-color-shape.png" class="service_info_color_shape" alt="shape" >
+                   
+                    <img src="{{asset('assets/images/shape/service-color-shape.png')}}" class="service_info_color_shape" alt="shape" >
                 </div><!--end .service_img_info_box-->
-                <p class="col-md-10 col-md-offset-1">Loazzne® is a heating and cooling service company with a history of excellence, customer service, and quality craftsmanship. We specialize in HVAC service, replacement, and repair for both residential and commercial customers in North America.</p>
+                <p class="col-md-10 col-md-offset-1">
+                    At Cooling Point, we specialize in providing fast, reliable, and affordable repair services for air conditioners, washing machines, and refrigerators. With years of experience and a team of certified technicians, we are committed to restoring comfort and convenience to your home or business.
+                </p>
             </div><!--end .col-md-12-->
         </div><!--end .row-->
     </div><!--end .container-->
@@ -50,7 +55,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/gasfilling.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/ag.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-snow"></i>
                         </div><!-- /.icon-box -->
@@ -58,16 +63,16 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Gas Filling</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                          Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/installation.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/ai.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-fire"></i>
                         </div><!-- /.icon-box -->
@@ -75,16 +80,16 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Installation</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/awashing.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/as.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-ac"></i>
                         </div><!-- /.icon-box -->
@@ -92,9 +97,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Servicing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -113,7 +118,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/wepair.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/wi.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-snow"></i>
                         </div><!-- /.icon-box -->
@@ -121,16 +126,16 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Installing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/washingrepair.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: contain;">
+                        <img src="{{asset('assets/images/services/wr.png')}}" alt="service image" style="width: 100%; height: 250px; object-fit: contain;">
                         <div class="icon-box">
                             <i class="icon-fire"></i>
                         </div><!-- /.icon-box -->
@@ -138,16 +143,16 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Repairing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/washingmachinerepair.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/ws.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-ac"></i>
                         </div><!-- /.icon-box -->
@@ -155,9 +160,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Servicing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -175,7 +180,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/frepair.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/fr.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-snow"></i>
                         </div><!-- /.icon-box -->
@@ -183,16 +188,16 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Freedge Repairing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/fridge.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/fi.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-fire"></i>
                         </div><!-- /.icon-box -->
@@ -200,16 +205,16 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Fridge installation</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
             <div class="col-md-4 col-sm-6">
                 <div class="service_box">
                     <div class="service_img">
-                        <img src="{{asset('assets/images/services/freedgegas.jpg')}}" alt="service image" style="width: 100%; height: 250px; object-fit: cover;">
+                        <img src="{{asset('assets/images/services/fg.png')}}" alt="service image">
                         <div class="icon-box">
                             <i class="icon-ac"></i>
                         </div><!-- /.icon-box -->
@@ -217,9 +222,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Freedge Gas Charging</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
