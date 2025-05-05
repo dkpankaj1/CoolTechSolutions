@@ -50,10 +50,9 @@
                 <div class="col-md-9 col-sm-8 col-xs-12">
                     <div class="header_contact text-right">
                         <ul class="hd_contact">
-                            <li><i class="icon-placeholder"></i> Address<a href=""> 66 Broklyn Street, New
-                                    York</a></li>
-                            <li><i class="icon-phone-call"></i> Call Now<a href=""> 666 888 000</a></li>
-                            <li><i class="icon-clock"></i> Open Hours<a href=""> Mon-Sat: 9am - 6pm</a></li>
+                            <li><i class="icon-placeholder"></i> Address<a href="">Shop No 4 Maurya Market Priti Nagar, Lukhnow</a></li>
+                            <li><i class="icon-phone-call"></i> Call Now<a href=""> 8418951771</a></li>
+                            <li><i class="icon-clock"></i> Open Hours<a href=""> 9am - 9pm</a></li>
                         </ul>
                     </div>
                 </div>
