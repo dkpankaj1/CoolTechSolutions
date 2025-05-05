@@ -72,7 +72,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="{{ route('home') }}" class="logo">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
+                        <img src="{{ asset('assets/images/logo.svg') }}" alt="Logo">
                     </a>
                 </div>
                 <div class="col-md-10 col-sm-9 collapse_responsive">
