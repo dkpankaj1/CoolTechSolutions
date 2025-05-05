@@ -7,6 +7,7 @@
         Start Breadcrumb
 ===========================-->
 <section class="breadcrumb_section text-center section_padding">
+  
     <ul class="breadcrumb">
        
         <li><a href="index.html">Home</a></li>
@@ -26,7 +27,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="service_img_info_box">
-                    <img src="{{asset('assets/images/banner/banner.png')}}" >
+                   
                     <img src="{{asset('assets/images/shape/service-color-shape.png')}}" class="service_info_color_shape" alt="shape" >
                 </div><!--end .service_img_info_box-->
                 <p class="col-md-10 col-md-offset-1">
@@ -62,9 +63,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Gas Filling</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                          Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -79,9 +80,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Installation</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -96,9 +97,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Servicing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -125,9 +126,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Installing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -142,9 +143,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Repairing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -159,9 +160,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Servicing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">Book Now</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -187,9 +188,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Freedge Repairing</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -204,9 +205,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Fridge installation</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->
@@ -221,9 +222,9 @@
                     <div class="service_details">
                         <a href="service-details.html"><h2>Freedge Gas Charging</h2></a>
                         <p>
-                            There are many variations passages of lorem ipsum available but the majority have suffered alteration.
+                           Colling Point have professional Technican to solve your problem.we reached Your home within 2 Hours after contacting  with us
                         </p>
-                        <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                     </div><!--end .service_details-->
                 </div><!--end .service_box-->
             </div><!--end .col-md-4-->

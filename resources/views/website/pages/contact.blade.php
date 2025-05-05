@@ -26,17 +26,17 @@
                 <div class="contact-right contact_details">
                     <div class="hero-title-with-shape">
                         <h4 class="heading_with_border">Contact with us</h4>
-                        <h1>We offer 24/7 emergency service to all of our customers</h1>
+                        <h1>Cooling Point offer 24/7 emergency service to all of our customers</h1>
                     </div><!--end .hero-title-with-shape-->
-                    <p>There are many variations of passages of new lorem ipsum available, but the majority have suffered.</p>
+                    <p>We provide Sevices for  all type of problem of Air conditioner ,Washing Machine ,Fridge. we provide service whith is 2 hours </p>
                     <div class="contact_location_box">
                         <div class="contact_location_map">
                             <span class="icon-location"></span>
-                            <p>66 broklyn street, <br>new york</p>
+                            <p>Shop No 4 Maurya Market Kriti Nagar, <br>Lukhnow</p>
                         </div><!--end .contact_location_map-->
                         <div class="contact_location_map contact_location_call">
                             <span class="icon-contact_call"></span>
-                            <p>help@loazzne.com <br>666 888 000</p>
+                            <p>rakeshshanu8418@gmail.com <br>8418951771</p>
                         </div><!--end .contact_location_map .contact_location_call-->
                     </div><!--end .contact_location_box-->
                 </div><!--end .contact-right .contact_details-->
