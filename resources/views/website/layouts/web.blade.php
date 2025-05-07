@@ -8,7 +8,7 @@
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,600i,700" rel="stylesheet">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="icon" href="assets/images/favicon.svg">
     <!--stylesheet-->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
@@ -72,7 +72,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="{{ route('home') }}" class="logo">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
+                        <img src="{{ asset('assets/images/logo.svg') }}" alt="Logo">
                     </a>
                 </div>
                 <div class="col-md-10 col-sm-9 collapse_responsive">

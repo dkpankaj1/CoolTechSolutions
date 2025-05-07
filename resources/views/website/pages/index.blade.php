@@ -1,7 +1,7 @@
 <x-web-layout>
     {{-- Start Header Slider --}}
     <section class="header_slider_area owl-carousel">
-        <div class="header_slider_bg" style="background-image:url('{{ asset('assets/images/aircon.jpg') }}')">
+        <div class="header_slider_bg" style="background-image:url('{{ asset('assets/images/slider-1.webp') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -14,7 +14,7 @@
                 </div><!--end .row-->
             </div><!--end .container-->
         </div><!--end .header_slider_bg-->
-        <div class="header_slider_bg slider_bg2" style="background-image:url('{{ asset('assets/images/fridge.jpg') }}')">
+        <div class="header_slider_bg slider_bg2" style="background-image:url('{{ asset('assets/images/slider-2.webp') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -73,17 +73,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="about_image about-image__updated"></div>
+                    <div class="about_image about-image__updated" style="background-image:url('{{ asset('assets/images/freedg1.png') }}')" ></div>
                 </div><!--end .col-md-6-->
                 <div class="col-md-6">
                     <div class="about_details">
                         <div class="hero-title-with-shape">
-                            <h4 class="heading_with_border">Welcome to loazzne</h4>
-                            <h1>Heating and air conditioning repair and installation company</h1>
+                            <h4 class="heading_with_border">Welcome to Colling Point</h4>
+                            <h1>air conditioning ,Washing Maching Machine and Freedge repair and installation company</h1>
                         </div><!--end .hero-title-with-shape-->
-                        <p>There are many variations of passages of lorem ipsum available, but the majorify have
-                            suffered alteration in some form by injected humour, or randmised words which don't look
-                            even slightly believable.</p>
+                        <p>
+                            At Cooling Point, we specialize in delivering top-notch services in air conditioning repair and installation, as well as expert care for washing machines and refrigerators. With years of hands-on experience, our mission is to provide reliable, affordable, and efficient solutions that keep your home cool and your appliances running smoothly.
+                        </p>
                         <a href="#" class="btn-yellow">LEARN MORE</a>
                     </div><!--end .about_details-->
                 </div><!--end .col-md-6-->
@@ -104,67 +104,70 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="service_box">
                         <div class="service_img">
-                            <img src="assets/images/services/service-1.jpg" alt="service 1">
+                            <img src="assets/images/ac2.png" alt="service 1">
                             <div class="icon-box">
                                 <i class="icon-snow"></i>
                             </div><!-- /.icon-box -->
                         </div><!--end .service_img-->
                         <div class="service_details">
                             <a href="service-details.html">
-                                <h2>Cooling Services</h2>
+                                <h2>Air Condtioner Services</h2>
                             </a>
                             <p>
-                                There are many variations passages of lorem ipsum available but the majority have
-                                suffered alteration.
+                                We provide expert air conditioner installation, repair,and maintenance to keep your home cool and comfortable year-round.Trust our technicians for reliable and efficient service.
                             </p>
-                            <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                            <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                         </div><!--end .service_details-->
                     </div><!--end .service_box-->
                 </div><!--end .col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="service_box">
                         <div class="service_img">
-                            <img src="assets/images/services/service-2.jpg" alt="service 2">
+                            <img src="assets/images/freedge2.png" alt="service 2">
                             <div class="icon-box">
                                 <i class="icon-fire"></i>
                             </div><!-- /.icon-box -->
                         </div><!--end .service_img-->
                         <div class="service_details">
                             <a href="service-details.html">
-                                <h2>Heating Services</h2>
+                                <h2>Freedge Services</h2>
                             </a>
                             <p>
-                                There are many variations passages of lorem ipsum available but the majority have
-                                suffered alteration.
+                                Our fridge services cover all types of cooling issues, including gas refilling, compressor repair, and regular maintenance, ensuring your food stays fresh and your fridge runs smoothly.
                             </p>
-                            <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                            <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                         </div><!--end .service_details-->
                     </div><!--end .service_box-->
                 </div><!--end .col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="service_box">
                         <div class="service_img">
-                            <img src="assets/images/services/service-3.jpg" alt="service 3">
+                            <img src="assets/images/washing2.png" alt="service 3">
                             <div class="icon-box">
                                 <i class="icon-ac"></i>
                             </div><!-- /.icon-box -->
                         </div><!--end .service_img-->
                         <div class="service_details">
                             <a href="service-details.html">
-                                <h2>Other Services</h2>
+                                <h2>Washing Machine Services</h2>
                             </a>
                             <p>
-                                There are many variations passages of lorem ipsum available but the majority have
-                                suffered alteration.
+                                From drum issues to water drainage problems, our washing machine repair team handles it all with care and precision to restore full functionality and extend your machine’s life.
+
+
                             </p>
-                            <a href="service-details.html" class="btn-yellow">LEARN MORE</a>
+                            <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                         </div><!--end .service_details-->
                     </div><!--end .service_box-->
                 </div><!--end .col-md-4-->
             </div><!--end .row-->
         </div><!--end .container-->
+        <div class="mt-10 text-center">
+            <a href="" class="btn-gray">Read More</a>
+        </div>
     </section>
     {{-- End Service --}}
+   
 
 
     {{-- Start CTA --}}
@@ -189,28 +192,28 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hero-section-title text-center">
-                        <h1>Numbers Speakers.</h1>
+                        <h1>Numbers of Client.</h1>
                     </div><!--end .hero-section-title-->
                 </div><!--end .col-md-12-->
                 <div class="col-md-4 col-sm-6">
                     <div class="counter_box">
                         <img src="assets/images/shape/about-shape.png" class="number_img_shape" alt="Shape">
-                        <span class="counter">8870</span>
-                        <p>Air Conditioning Repairs and Install</p>
+                        <span class="counter">3000</span>
+                        <p>Air Conditioning Repairs and Install in Lukhnow city</p>
                     </div><!--end .counter_box-->
                 </div><!--end .col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="counter_box">
                         <img src="assets/images/shape/about-shape.png" class="number_img_shape" alt="Shape">
-                        <span class="counter">4760</span>
-                        <p>Air Conditioning Repairs and Install</p>
+                        <span class="counter">3000</span>
+                        <p>Freedge Repairs and Install in Lukhnow city</p>
                     </div><!--end .counter_box-->
                 </div><!--end .col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="counter_box">
                         <img src="assets/images/shape/about-shape.png" class="number_img_shape" alt="Shape">
-                        <span class="counter">9032</span>
-                        <p>Customizers are Satisfied with our Services</p>
+                        <span class="counter">5000</span>
+                        <p>Washing Machine repair and Install in Lukhnow city</p>
                     </div><!--end .counter_box-->
                 </div><!--end .col-md-4-->
             </div><!--end .row-->

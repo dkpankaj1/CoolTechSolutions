@@ -501,7 +501,7 @@ body {
 # .0 Breadcrumb Section
 ------------------------------------*/
 .breadcrumb_section {
-    background: #e4e4e4 url(../images/banner/banner1.png) center left no-repeat;
+    background: center left no-repeat;
     background-size: cover;
     position: relative;
     padding-top: 224px;
