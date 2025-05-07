@@ -1,7 +1,7 @@
 <x-web-layout>
     {{-- Start Header Slider --}}
     <section class="header_slider_area owl-carousel">
-        <div class="header_slider_bg">
+        <div class="header_slider_bg" style="background-image:url('{{ asset('assets/images/aircon.jpg') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -14,7 +14,7 @@
                 </div><!--end .row-->
             </div><!--end .container-->
         </div><!--end .header_slider_bg-->
-        <div class="header_slider_bg slider_bg2">
+        <div class="header_slider_bg slider_bg2" style="background-image:url('{{ asset('assets/images/fridge.jpg') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -27,7 +27,7 @@
                 </div><!--end .row-->
             </div><!--end .container-->
         </div><!--end .header_slider_bg-->
-        <div class="header_slider_bg slider_bg3">
+        <div class="header_slider_bg slider_bg3" style="background-image:url('{{ asset('assets/images/washing.jpg') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -315,82 +315,35 @@
             <div class="row">
                 <div class="clients_logo owl-carousel">
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand1.png" alt="Clients Logos">
                     </div><!--end .item-->
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand2.png" alt="Clients Logos">
                     </div><!--end .item-->
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand3.png" alt="Clients Logos">
                     </div><!--end .item-->
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand4.png" alt="Clients Logos">
                     </div><!--end .item-->
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand5.png" alt="Clients Logos">
                     </div><!--end .item-->
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand6.png" alt="Clients Logos">
                     </div><!--end .item-->
                     <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
+                        <img src="assets/images/brand7.png" alt="Clients Logos">
                     </div><!--end .item-->
-                    <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
-                    </div><!--end .item-->
-                    <div class="item">
-                        <img src="assets/images/client-logo.png" alt="Clients Logos">
-                    </div><!--end .item-->
+                    
                 </div><!--end .clients_logo-->
             </div><!--end .row-->
         </div><!--end .container-->
     </div>
     {{-- End Client's Logo --}}
 
-    {{-- Start CTA --}}
-    <section class="cta_style_2_area">
-        <div class="cta_style_2_img_left cta_style_2_img_right"></div>
-        <div class="cta_style_2_left">
-            <p>Air Conditioning Services</p>
-            <h1>Cool it down</h1>
-        </div><!--end .cta_style_2_left-->
-        <div class="cta_style_2_left cta_style_2_right text-right">
-            <p>Heating Services</p>
-            <h1>Heat it up</h1>
-        </div><!--end .cta_style_2_left .cta_style_2_right-->
-    </section>
-    {{-- End CTA --}}
+  
 
 
-    {{-- Start Contact Form --}}
-    <section class="contact_form_area">
-        <div class="contact_form_width">
-            <h1 class="contact_map_title text-center">We're not putting on airs - our work is guaranteed to satisfy.
-            </h1>
-            <div id="map"></div>
-        </div>
-        <div class="contact_form_width contact-right">
-            <div class="hero-title-with-shape">
-                <h4 class="heading_with_border">Get a free quote</h4>
-                <h1>To request a service call, please fill out the form below</h1>
-            </div>
-            <form action="#" method="post">
-                <input class="half_width input_m_right" type="text" name="fname" placeholder="Your name">
-                <input class="half_width" type="EMAIL" name="email" placeholder="Email address">
-                <input type="tel" name="tell" placeholder="Phone number">
-                <span class="select_icon">
-                    <select name="select" id="select">
-                        <option value="option0">Select Service</option>
-                        <option value="option1">Service 1</option>
-                        <option value="option2">Service 2</option>
-                        <option value="option3">Service 3</option>
-                        <option value="option4">Service 4</option>
-                    </select>
-                </span>
-                <button class="btn-yellow" value="SUBMIT NOW">SUBMIT NOW</button>
-            </form>
-        </div>
-    </section>
-
-    {{-- End Contact Form --}}
+   
 </x-web-layout>

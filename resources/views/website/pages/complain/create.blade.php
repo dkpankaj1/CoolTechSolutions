@@ -1,4 +1,13 @@
 <x-web-layout>
+
+    <section class="breadcrumb_section text-center section_padding">  
+        <ul class="breadcrumb">           
+            <li><a href="{{ route('home') }}">Home</a></li>
+            <li> Book Now</li>
+        </ul>
+        <h1>Book Service</h1>
+    </section>
+
     <section class="breadcrumb_section text-center section_padding">
         <ul class="breadcrumb">
             <li><a href="{{ route('home') }}">Home</a></li>
