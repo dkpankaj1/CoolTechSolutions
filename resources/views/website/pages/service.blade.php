@@ -6,7 +6,7 @@
 <!--===========================
         Start Breadcrumb
 ===========================-->
-<section class="breadcrumb_section text-center section_padding">
+<section class="breadcrumb_section text-center section_padding" style="background-image:url('{{ asset('assets/images/slider-3.webp') }}')">
   
     <ul class="breadcrumb">
        
@@ -22,23 +22,38 @@
 <!--===========================
         Start Service Style 2
 ===========================-->
-<div class="service_style_2_area text-center section_padding">
+<div class="clients_logo_area text-center section_padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="service_img_info_box">
-                   
-                    <img src="{{asset('assets/images/shape/service-color-shape.png')}}" class="service_info_color_shape" alt="shape" >
-                </div><!--end .service_img_info_box-->
-                <p class="col-md-10 col-md-offset-1">
-                    At Cooling Point, we specialize in providing fast, reliable, and affordable repair services for air conditioners, washing machines, and refrigerators. With years of experience and a team of certified technicians, we are committed to restoring comfort and convenience to your home or business.
-                </p>
-            </div><!--end .col-md-12-->
+            <div class="clients_logo owl-carousel">
+                <div class="item">
+                    <img src="assets/images/brand1.png" alt="Clients Logos">
+                </div><!--end .item-->
+                <div class="item">
+                    <img src="assets/images/brand2.png" alt="Clients Logos">
+                </div><!--end .item-->
+                <div class="item">
+                    <img src="assets/images/brand3.png" alt="Clients Logos">
+                </div><!--end .item-->
+                <div class="item">
+                    <img src="assets/images/brand4.png" alt="Clients Logos">
+                </div><!--end .item-->
+                <div class="item">
+                    <img src="assets/images/brand5.png" alt="Clients Logos">
+                </div><!--end .item-->
+                <div class="item">
+                    <img src="assets/images/brand6.png" alt="Clients Logos">
+                </div><!--end .item-->
+                <div class="item">
+                    <img src="assets/images/brand7.png" alt="Clients Logos">
+                </div><!--end .item-->
+                
+            </div><!--end .clients_logo-->
         </div><!--end .row-->
     </div><!--end .container-->
-</div><!--end .service_style_2_area-->
+</div><!--end .clients_logo_area-->
 <!--===========================
-        End Service Style 2
+        End Client's Logo
 ===========================-->
 
 <!--===========================
@@ -281,47 +296,8 @@
         End Service Benefits
 ===========================-->
 
-<!--===========================
-        Start Client's Logo
-===========================-->
-<div class="clients_logo_area text-center section_padding">
-    <div class="container">
-        <div class="row">
-            <div class="clients_logo owl-carousel">
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-            </div><!--end .clients_logo-->
-        </div><!--end .row-->
-    </div><!--end .container-->
-</div><!--end .clients_logo_area-->
-<!--===========================
-        End Client's Logo
-===========================-->
+
+
 
 
 

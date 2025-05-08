@@ -8,7 +8,7 @@
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,600i,700" rel="stylesheet">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="icon" href="assets/images/favicon.svg">
     <!--stylesheet-->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
