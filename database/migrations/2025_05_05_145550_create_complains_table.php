@@ -16,8 +16,10 @@ return new class extends Migration
             $table->timestamps();
             $table->string('name');
             $table->integer('number');
+            $table->string('email');
             $table->string('service');
-            $table->text('content')->nullable();
+            $table->text('address');
+            $table->text('description');
 
         });
     }

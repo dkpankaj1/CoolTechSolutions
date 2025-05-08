@@ -14,7 +14,8 @@
                 </div><!--end .row-->
             </div><!--end .container-->
         </div><!--end .header_slider_bg-->
-        <div class="header_slider_bg slider_bg2" style="background-image:url('{{ asset('assets/images/slider-2.webp') }}')">
+        <div class="header_slider_bg slider_bg2"
+            style="background-image:url('{{ asset('assets/images/slider-2.webp') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -27,7 +28,8 @@
                 </div><!--end .row-->
             </div><!--end .container-->
         </div><!--end .header_slider_bg-->
-        <div class="header_slider_bg slider_bg3" style="background-image:url('{{ asset('assets/images/washing.jpg') }}')">
+        <div class="header_slider_bg slider_bg3"
+            style="background-image:url('{{ asset('assets/images/washing.jpg') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -73,18 +75,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="about_image about-image__updated" style="background-image:url('{{ asset('assets/images/freedg1.png') }}')" ></div>
+                    <div class="about_image about-image__updated"
+                        style="background-image:url('{{ asset('assets/images/freedg1.png') }}')"></div>
                 </div><!--end .col-md-6-->
                 <div class="col-md-6">
                     <div class="about_details">
                         <div class="hero-title-with-shape">
                             <h4 class="heading_with_border">Welcome to Colling Point</h4>
-                            <h1>air conditioning ,Washing Maching Machine and Freedge repair and installation company</h1>
+                            <h1>air conditioning ,Washing Maching Machine and Freedge repair and installation company
+                            </h1>
                         </div><!--end .hero-title-with-shape-->
                         <p>
-                            At Cooling Point, we specialize in delivering top-notch services in air conditioning repair and installation, as well as expert care for washing machines and refrigerators. With years of hands-on experience, our mission is to provide reliable, affordable, and efficient solutions that keep your home cool and your appliances running smoothly.
+                            At Cooling Point, we specialize in delivering top-notch services in air conditioning repair
+                            and installation, as well as expert care for washing machines and refrigerators. With years
+                            of hands-on experience, our mission is to provide reliable, affordable, and efficient
+                            solutions that keep your home cool and your appliances running smoothly.
                         </p>
-                        <a href="#" class="btn-yellow">LEARN MORE</a>
+                        <a href="{{ route('about') }}" class="btn-yellow">LEARN MORE</a>
                     </div><!--end .about_details-->
                 </div><!--end .col-md-6-->
             </div><!--end .row-->
@@ -114,7 +121,9 @@
                                 <h2>Air Condtioner Services</h2>
                             </a>
                             <p>
-                                We provide expert air conditioner installation, repair,and maintenance to keep your home cool and comfortable year-round.Trust our technicians for reliable and efficient service.
+                                We provide expert air conditioner installation, repair,and maintenance to keep your home
+                                cool and comfortable year-round.Trust our technicians for reliable and efficient
+                                service.
                             </p>
                             <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                         </div><!--end .service_details-->
@@ -133,7 +142,9 @@
                                 <h2>Freedge Services</h2>
                             </a>
                             <p>
-                                Our fridge services cover all types of cooling issues, including gas refilling, compressor repair, and regular maintenance, ensuring your food stays fresh and your fridge runs smoothly.
+                                Our fridge services cover all types of cooling issues, including gas refilling,
+                                compressor repair, and regular maintenance, ensuring your food stays fresh and your
+                                fridge runs smoothly.
                             </p>
                             <a href="{{ route('complain.create') }}" class="btn-yellow">Book Now</a>
                         </div><!--end .service_details-->
@@ -152,7 +163,9 @@
                                 <h2>Washing Machine Services</h2>
                             </a>
                             <p>
-                                From drum issues to water drainage problems, our washing machine repair team handles it all with care and precision to restore full functionality and extend your machine’s life.
+                                From drum issues to water drainage problems, our washing machine repair team handles it
+                                all with care and precision to restore full functionality and extend your machine’s
+                                life.
 
 
                             </p>
@@ -162,12 +175,13 @@
                 </div><!--end .col-md-4-->
             </div><!--end .row-->
         </div><!--end .container-->
+        <br />
         <div class="mt-10 text-center">
-            <a href="" class="btn-gray">Read More</a>
+            <a href="{{ route('services') }}" class="btn-gray">All Services</a>
         </div>
     </section>
     {{-- End Service --}}
-   
+
 
 
     {{-- Start CTA --}}
@@ -178,7 +192,7 @@
                     <h1>No overtime charges, 7 days a week</h1>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-12 text-right cta_responsive_left">
-                    <a href="" class="btn-gray">GET A FREE QUOTE</a>
+                    <a href="{{ route('complain.create') }}" class="btn-gray">BOOK COMPLAIN</a>
                 </div>
             </div>
         </div>
@@ -338,15 +352,15 @@
                     <div class="item">
                         <img src="assets/images/brand7.png" alt="Clients Logos">
                     </div><!--end .item-->
-                    
+
                 </div><!--end .clients_logo-->
             </div><!--end .row-->
         </div><!--end .container-->
     </div>
     {{-- End Client's Logo --}}
 
-  
 
 
-   
+
+
 </x-web-layout>

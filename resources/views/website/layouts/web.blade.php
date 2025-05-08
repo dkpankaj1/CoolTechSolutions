@@ -50,8 +50,8 @@
                 <div class="col-md-9 col-sm-8 col-xs-12">
                     <div class="header_contact text-right">
                         <ul class="hd_contact">
-                            <li><i class="icon-placeholder"></i> Address<a href="">Shop No 4 Maurya Market Priti Nagar, Lukhnow</a></li>
-                            <li><i class="icon-phone-call"></i> Call Now<a href=""> 8418951771</a></li>
+                            <li><i class="icon-placeholder"></i> Address<a href="">Shop No 4 Maurya Market PritiNagar, Lucknow </a></li>
+                            <li><i class="icon-phone-call"></i> Call Now <a href="tel:8418951771">+91-8418951771</a></li>
                             <li><i class="icon-clock"></i> Open Hours<a href=""> 9am - 9pm</a></li>
                         </ul>
                     </div>
@@ -84,7 +84,7 @@
                             <li><a href="{{ route('services') }}">Services</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                             <li class="header_right_btn">
-                                <a class="btn-yellow" href="#">BOOK TODAY</a>
+                                <a class="btn-yellow" href="{{ route('complain.create') }}">BOOK TODAY</a>
                             </li>
                         </ul>
                     </div>
@@ -105,13 +105,13 @@
             <div class="container">
                 <div class="col-md-4 col-sm-4">
                     <div class="footer_contact_width text-left">
-                        <p><i class="icon-placeholder"></i> Address <span>66 Broklyn Street, New York</span></p>
+                        <p><i class="icon-placeholder"></i> Address <span>Shop No 4 Maurya Market PritiNagar, Lucknow </span></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="footer_contact_width">
                         <p><i class="icon-contact"></i> Email <span><a
-                                    href="mailto:layerdrops@gmail.com">help@loazzne.com</a></span></p>
+                                    href="mailto:layerdrops@gmail.com">help@email.com</a></span></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
@@ -127,13 +127,12 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="footer_textwidget textwidget">
-                            <h2>About Loazzne</h2>
+                            <h2>About coolTechSolutions</h2>
                             <p>
-                                At Lennom, We don’t just provide resi-dential and commercial heating and air
-                                conditioning services; we make people’s lives easier. Better.
+                                Cooling Point offers expert air conditioning repair and installation, plus top-quality service for washing machines and refrigerators. With years of experience, we provide reliable, affordable solutions to keep your home cool and appliances running smoothly.
                             </p>
-                            <h4>Get a Quote</h4>
-                            <span class="number">666 888 000</span>
+                            <h4>Call Us</h4>
+                            <span class="number">+91-8418951771</span>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-3">
@@ -165,7 +164,7 @@
                 <div class="copyright_area">
                     <div class="row">
                         <div class="col-md-8 col-sm-6 copyright_text">
-                            <p>&copy; copyright 2019 by Layerdrops.com</p>
+                            <p>&copy; copyright {{ now()->format('Y') }} by coolTechSolutions</p>
                         </div>
                         <div class="col-md-4 col-sm-6 copyright_social text-right">
                             <ul>

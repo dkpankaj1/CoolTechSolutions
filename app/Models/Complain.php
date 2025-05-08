@@ -9,7 +9,9 @@ class Complain extends Model
     protected $fillable = [
         'name',
         'number',
+        'email',
         'service',
-        'content',
+        'address',
+        'description',
     ];
 }

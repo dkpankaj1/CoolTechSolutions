@@ -5,7 +5,7 @@
 <!--===========================
         Start Breadcrumb
 ===========================-->
-<section class="breadcrumb_section text-center section_padding">
+<section class="breadcrumb_section text-center section_padding" style="background-image:url('{{ asset('assets/images/slider-3.webp') }}')">
     <ul class="breadcrumb">
         <li><a href="index.html">Home</a></li>
         <li> Contact</li>

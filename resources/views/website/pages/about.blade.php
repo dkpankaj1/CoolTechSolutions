@@ -4,75 +4,15 @@
 <!--===========================
         Start Breadcrumb
 ===========================-->
-<section class="breadcrumb_section text-center section_padding">
+<section class="breadcrumb_section text-center section_padding" style="background-image:url('{{ asset('assets/images/slider-3.webp') }}')">
     <ul class="breadcrumb">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="{{ route('home') }}">Home</a></li>
         <li> About</li>
     </ul>
     <h1>About us</h1>
 </section><!--end .breadcrumb_section-->
-<!--===========================
-        End Breadcrumb
-===========================-->
 
-<!--===========================
-        Start About Style 3
-===========================-->
-<section class="about_style_3_area section_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <div class="about_image_box"></div>
-            </div><!--end .col-md-4-->
-            <div class="col-md-3 col-sm-6">
-                <div class="about_image_box about_image_box2"></div>
-            </div><!--end .col-md-3-->
-            <div class="col-md-5 col-sm-6">
-                <div class="about_image_box about_image_box3"></div>
-            </div><!--end .col-md-5-->
 
-            <div class="col-md-4 col-sm-6">
-                <div class="about_style_3_details">
-                    <h1>We are trusted by more than <span>8900</span> clients</h1>
-                </div><!--end .about_style_3_details-->
-            </div><!--end .col-md-4-->
-            <div class="col-md-4 col-sm-6">
-                <div class="about_style_3_details">
-                    <img src="assets/images/shape/about-shape.png" class="about_us_shape" alt="about shape">
-                    <p>Tincidunt elit magnis nulla facilisis sagittis is maecenas. Sapien nunced amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                </div><!--end .about_style_3_details-->
-            </div><!--end .col-md-4-->
-
-            <div class="col-md-4 col-sm-6">
-                <div class="about_style_3_details">
-                    <p>Lorem ipsum dolors sit amet elit magnis amet ultrices purusrfed aliquet. There are many varia-tions of passages of available but the majarity have suffered.</p>
-                </div><!--end .about_style_3_details-->
-            </div><!--end .col-md-4-->
-        </div><!--end .row-->
-    </div><!--end .container-->
-</section><!--end .about_style_3_area-->
-<!--===========================
-        End About Style 3
-===========================-->
-
-<!--===========================
-        Start Video Promotion
-===========================-->
-<section class="video_promotion_area text-center">
-    <div class="overlay">
-        <a href="#videostore" class="video-img"
-           data-video="https://www.youtube.com/embed/A7ZkZazfvao" title="Play Icon" id="videolink">
-            <span class="video-play"><i class="fa fa-play"></i></span>
-        </a>
-        <h1>Watch how we work</h1>
-        <div id="videostore" class="mfp-hide text-center">
-            <iframe src="https://www.youtube.com/embed/A7ZkZazfvao" allow="autoplay;encrypted-media" allowfullscreen></iframe>
-        </div><!--end #videostore-->
-    </div><!--end .overlay-->
-</section><!--end .video_promotion_area-->
-<!--===========================
-        End Video Promotion
-===========================-->
 
 <!--===========================
         Start About Service
@@ -91,9 +31,10 @@
             </div><!--end .col-md-6end .col-md-6-->
             <div class="col-md-6">
                 <div class="about_service_right">
-                    <div class="hero-title-with-shape">
-                        <h4 class="heading_with_border">Why choose us</h4>
+                    <div class="hero-title-with-shape text-justify">
+                        <h4 class="heading_with_border">About Us</h4>
                         <h1>We are trusted source of ac and heating maintenance repairs company</h1>
+                        <p>We are a trusted source of ac and heating maintenance repairs company. We have been in the business for over 20 years and have a proven track record of providing quality service to our customers.</p>
                     </div>
                     <ul>
                         <li><i class="fa fa-check-circle"></i> Unmatched performance, satisfaction service guarantees</li>
@@ -103,10 +44,7 @@
                         <li><i class="fa fa-check-circle"></i> Fixed right promise—done right or it’s free</li>
                         <li><i class="fa fa-check-circle"></i> Clear communication and updates on service arrival</li>
                     </ul>
-                    <div class="about_service_discount text-center">
-                        <h1>10% off</h1>
-                        <p>on our all services for senior citizens.</p>
-                    </div><!--end .about_service_discount-->
+                    
                 </div><!--end .about_service_right-->
             </div><!--end .col-md-6-->
         </div><!--end .row-->
@@ -144,7 +82,7 @@
         </div><!--end .row-->
     </div><!--end .container-->
     <h1 class="testimonial_heading_shape">Testimonials</h1>
-</section><!--end .testimonial_area-->
+</section>
 <!--===========================
         End Testimonial
 ===========================-->
@@ -215,76 +153,44 @@
             </div><!--end .col-md-3-->
         </div><!--end .row-->
     </div><!--end .container-->
-</section><!--end .team_member_area-->
+</section>
 <!--===========================
         End Team Member
 ===========================-->
 
-<!--===========================
-        Start Client's Logo
-===========================-->
+{{-- Start Client's Logo --}}
 <div class="clients_logo_area text-center section_padding">
     <div class="container">
         <div class="row">
             <div class="clients_logo owl-carousel">
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand1.png" alt="Clients Logos">
                 </div><!--end .item-->
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand2.png" alt="Clients Logos">
                 </div><!--end .item-->
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand3.png" alt="Clients Logos">
                 </div><!--end .item-->
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand4.png" alt="Clients Logos">
                 </div><!--end .item-->
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand5.png" alt="Clients Logos">
                 </div><!--end .item-->
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand6.png" alt="Clients Logos">
                 </div><!--end .item-->
                 <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
+                    <img src="assets/images/brand7.png" alt="Clients Logos">
                 </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
-                <div class="item">
-                    <img src="assets/images/client-logo.png" alt="Clients Logos">
-                </div><!--end .item-->
+
             </div><!--end .clients_logo-->
         </div><!--end .row-->
     </div><!--end .container-->
-</div><!--end .clients_logo_area-->
-<!--===========================
-        End Client's Logo
-===========================-->
+</div>
+{{-- End Client's Logo --}}
 
-<!--===========================
-        Start Footer
-===========================-->
-<footer class="footer_area">
-    <div class="footer_contact text-center">
-        <div class="container">
-            <div class="col-md-4 col-sm-4">
-                <div class="footer_contact_width text-left">
-                    <p><i class="icon-placeholder"></i> Address <span>66 Broklyn Street, New York</span></p>
-                </div><!--end .footer_contact_width-->
-            </div><!--end .col-md-4-->
-            <div class="col-md-4 col-sm-4">
-                <div class="footer_contact_width">
-                    <p><i class="icon-contact"></i> Email <span><a href="mailto:layerdrops@gmail.com">help@loazzne.com</a></span></p>
-                </div><!--end .footer_contact_width-->
-            </div><!--end .col-md-4-->
-            <div class="col-md-4 col-sm-4">
-                <div class="footer_contact_width text-right">
-                    <p><i class="icon-clock"></i> Open Hours <span><a href="">Mon-Sat: 9am - 6pm</a></span></p>
-                </div><!--end .footer_contact_width-->
-            </div><!--end .col-md-4-->
-        </div><!--end .container-->
-    </div><!--end .footer_contact-->
     
 </x-web-layout>
 
