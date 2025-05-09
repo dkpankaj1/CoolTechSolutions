@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p><span class="subtitle_number">02</span> Choos the Best Company</p>
-                        <h1>Heating and Air Conditioning Specialist</h1>
+                        <h1>Colling and Air Conditioning Specialist</h1>
                         <div class="slide_button">
                             <a href="#" class="btn-yellow">GET A FREE QUOTE</a>
                         </div><!--end .slide_button-->
@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p><span class="subtitle_number">03</span> Quality that is Guaranteed</p>
-                        <h1>Expert Repair Ac and Heating Services</h1>
+                        <h1>Expert Repair  installation and service of Washing machine </h1>
                         <div class="slide_button">
                             <a href="#" class="btn-yellow">GET A FREE QUOTE</a>
                         </div><!--end .slide_button-->
@@ -239,7 +239,7 @@
     <section class="gallery_area">
         <div class="gallery_width">
             <div class="gallery_fixed_height">
-                <img src="assets/images/gallery/gallery-1.jpg" alt="gallery 1">
+                <img src="assets/images/gallery/ac271.png" alt="gallery 1">
                 <div class="gallery_overlay">
                     <h3>Maintenance and Repair</h3>
                     <a href="#" class="gallery_icon_btn text-right"><i class="fa fa-angle-right"></i></a>
@@ -248,7 +248,7 @@
         </div><!--end .gallery_width-->
         <div class="gallery_width">
             <div class="gallery_fixed_height">
-                <img src="assets/images/gallery/gallery-2.jpg" alt="gallery 2">
+                <img src="assets/images/gallery/fridge328.png" alt="gallery 2">
                 <div class="gallery_overlay">
                     <h3>Maintenance and Repair</h3>
                     <a href="#" class="gallery_icon_btn text-right"><i class="fa fa-angle-right"></i></a>
@@ -257,7 +257,7 @@
         </div><!--end .gallery_width-->
         <div class="gallery_width">
             <div class="gallery_fixed_height">
-                <img src="assets/images/gallery/gallery-3.jpg" alt="gallery 3">
+                <img src="assets/images/gallery/ac348.png" alt="gallery 3">
                 <div class="gallery_overlay">
                     <h3>Maintenance and Repair</h3>
                     <a href="#" class="gallery_icon_btn text-right"><i class="fa fa-angle-right"></i></a>
@@ -266,7 +266,7 @@
         </div><!--end .gallery_width-->
         <div class="gallery_width">
             <div class="gallery_fixed_height">
-                <img src="assets/images/gallery/gallery-4.jpg" alt="gallery 4">
+                <img src="assets/images/gallery/fridge.png" alt="gallery 4">
                 <div class="gallery_overlay">
                     <h3>Maintenance and Repair</h3>
                     <a href="#" class="gallery_icon_btn text-right"><i class="fa fa-angle-right"></i></a>
@@ -275,7 +275,7 @@
         </div><!--end .gallery_width-->
         <div class="gallery_width">
             <div class="gallery_fixed_height">
-                <img src="assets/images/gallery/gallery-5.jpg" alt="gallery 5">
+                <img src="assets/images/gallery/was328.png" alt="gallery 5">
                 <div class="gallery_overlay">
                     <h3>Maintenance and Repair</h3>
                     <a href="#" class="gallery_icon_btn text-right"><i class="fa fa-angle-right"></i></a>
@@ -284,7 +284,7 @@
         </div><!--end .gallery_width-->
         <div class="gallery_width">
             <div class="gallery_fixed_height">
-                <img src="assets/images/gallery/gallery-6.jpg" alt="gallery 6">
+                <img src="assets/images/gallery/fridge271.png" alt="gallery 6">
                 <div class="gallery_overlay">
                     <h3>Maintenance and Repair</h3>
                     <a href="#" class="gallery_icon_btn text-right"><i class="fa fa-angle-right"></i></a>

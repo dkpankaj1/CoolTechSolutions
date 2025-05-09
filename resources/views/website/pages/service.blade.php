@@ -10,7 +10,7 @@
   
     <ul class="breadcrumb">
        
-        <li><a href="index.html">Home</a></li>
+        <li><a href="{{ route('home') }}">Home</a></li>
         <li> Services</li>
     </ul>
     <h1>Our services</h1>

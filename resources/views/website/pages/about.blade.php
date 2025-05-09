@@ -21,9 +21,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="about_service_left">
+                <div class="about_service_left"  style="background-image:url('{{ asset('assets/images/newabout.png') }}')">
                     <p class="about_service_year text-center">
-                        20
+                        5
                         <span>years
                         experience</span>
                     </p><!--end .about_service_discount-->
@@ -33,8 +33,8 @@
                 <div class="about_service_right">
                     <div class="hero-title-with-shape text-justify">
                         <h4 class="heading_with_border">About Us</h4>
-                        <h1>We are trusted source of ac and heating maintenance repairs company</h1>
-                        <p>We are a trusted source of ac and heating maintenance repairs company. We have been in the business for over 20 years and have a proven track record of providing quality service to our customers.</p>
+                        <h1>We are trusted source of air conditioner washing machine and fridge repairs company</h1>
+                        <p>We are a trusted source of ac washing machine and fridge repairs  company. We have been in the business for over 5 years and have a proven track record of providing quality service to our customers.</p>
                     </div>
                     <ul>
                         <li><i class="fa fa-check-circle"></i> Unmatched performance, satisfaction service guarantees</li>
@@ -90,73 +90,7 @@
 <!--===========================
         Start Team Member
 ===========================-->
-<section class="team_member_area section_padding section_border text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="hero-section-title text-center">
-                    <h1>Meet The Team</h1>
-                </div><!--end .hero-section-title-->
-            </div><!--end .col-md-12-->
 
-            <div class="col-md-3 col-sm-6">
-                <div class="team_member">
-                    <img src="assets/images/team/team-1.jpg" alt="team 1">
-                    <div class="team_details">
-                        <h3>Rose Ford <span class="skills">- Manager</span></h3>
-                        <ul class="team_socials">
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                        </ul>
-                    </div><!--end .team_details-->
-                </div><!--end .team_member-->
-            </div><!--end .col-md-3-->
-            <div class="col-md-3 col-sm-6">
-                <div class="team_member">
-                    <img src="assets/images/team/team-2.jpg" alt="team 2">
-                    <div class="team_details">
-                        <h3>Mike Olsen <span class="skills">- Worker</span></h3>
-                        <ul class="team_socials">
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                        </ul>
-                    </div><!--end .team_details-->
-                </div><!--end .team_member-->
-            </div><!--end .col-md-3-->
-            <div class="col-md-3 col-sm-6">
-                <div class="team_member">
-                    <img src="assets/images/team/team-3.jpg" alt="team 3">
-                    <div class="team_details">
-                        <h3>Emmyson <span class="skills">- Founder</span></h3>
-                        <ul class="team_socials">
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                        </ul>
-                    </div><!--end .team_details-->
-                </div><!--end .team_member-->
-            </div><!--end .col-md-3-->
-            <div class="col-md-3 col-sm-6">
-                <div class="team_member">
-                    <img src="assets/images/team/team-4.jpg" alt="team 4">
-                    <div class="team_details">
-                        <h3>John Smith <span class="skills">- Worker</span></h3>
-                        <ul class="team_socials">
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                        </ul>
-                    </div><!--end .team_details-->
-                </div><!--end .team_member-->
-            </div><!--end .col-md-3-->
-        </div><!--end .row-->
-    </div><!--end .container-->
-</section>
-<!--===========================
-        End Team Member
-===========================-->
 
 {{-- Start Client's Logo --}}
 <div class="clients_logo_area text-center section_padding">

@@ -29,7 +29,7 @@ class ComplainController extends Controller
     {
 
         $request->validate([
-            'name' => ['required', 'string', 'max:255', 'min:2'],
+            'name' => ['required','string', 'max:255', 'min:2'],
             'mobile_number' => ['required', 'numeric', 'digits_between:10,15'],
             'email' => ['required', 'email', 'max:255'],
             'service' => ['required', 'string',],
