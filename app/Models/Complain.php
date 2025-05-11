@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\StatusEnum;
 use Illuminate\Database\Eloquent\Model;
 
 class Complain extends Model
@@ -13,5 +14,7 @@ class Complain extends Model
         'service',
         'address',
         'description',
+        'status',
     ];
+
 }

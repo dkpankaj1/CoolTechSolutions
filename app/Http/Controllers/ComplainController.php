@@ -48,4 +48,6 @@ class ComplainController extends Controller
 
         return redirect()->back()->with('success', 'Your complaint has been submitted successfully! Our team will reach out to you soon.');
     }
+
+    
 }
