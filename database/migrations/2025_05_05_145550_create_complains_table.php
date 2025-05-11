@@ -21,7 +21,8 @@ return new class extends Migration
             $table->string('service');
             $table->text('address');
             $table->text('description');
-            $table->string('status')->default(StatusEnum::PENDING);
+            $table->string('status')->default('pending')->comment('pending, in-progress, completed');
+            $table->softDeletes();
         });
     }
 

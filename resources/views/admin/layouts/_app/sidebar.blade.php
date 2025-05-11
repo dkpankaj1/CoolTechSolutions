@@ -39,17 +39,16 @@
                 <li>
                     <a href="#sidebarAuth" data-bs-toggle="collapse">
                         <i data-feather="grid"></i>
-                        <span> Complain </span>
+                        <span> Complains </span>
                         <span class="menu-arrow"></span>
                     </a>
                     <div class="collapse" id="sidebarAuth">
                         <ul class="nav-second-level">
                           <li>
-                                <a href="{{route('admin.createcomplain')}}">Create</a>
+                                <a href="{{route('admin.complains.create')}}">New Complain</a>
                             </li>
                             <li>
-                                
-                                <a href="{{route('admin.allcomplain')}}">All complain</a>
+                                <a href="{{route('admin.complains.index')}}">All complain</a>
                             </li>
                           
                         </ul>

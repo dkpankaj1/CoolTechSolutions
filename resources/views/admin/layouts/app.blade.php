@@ -18,6 +18,7 @@
 
     <!-- Icons -->
     <link href="{{asset('assets/kadso/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{asset('assets/toastr/toastr.min.css')}}" />
 
 </head>
 
@@ -45,7 +46,7 @@
             <div class="content">
 
                 <!-- Start Content-->
-                <div class="container-xxl">
+                <div class="container-fluid">
 
                     <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
                         <div class="flex-grow-1">
@@ -89,6 +90,8 @@
     <script src="{{asset('assets/kadso/libs/waypoints/lib/jquery.waypoints.min.js')}}"></script>
     <script src="{{asset('assets/kadso/libs/jquery.counterup/jquery.counterup.min.js')}}"></script>
     <script src="{{asset('assets/kadso/libs/feather-icons/feather.min.js')}}"></script>
+    <script src="{{asset('assets/toastr/toastr.min.js')}}"></script>
+    <x-toastr />
 
     <!-- App js-->
     <script src="{{asset('assets/kadso/js/app.js')}}"></script>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11764fb4397ca25875bd22c5c926af3a",
+    "content-hash": "da2fab2284b741fd190487ae3631e4ac",
     "packages": [
         {
             "name": "brick/math",
@@ -209,6 +209,54 @@
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
             "time": "2024-07-08T12:26:09+00:00"
+        },
+        {
+            "name": "dkpankaj1/toastr",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dkpankaj1/toastr.git",
+                "reference": "5451ae60eda24016990f8d09ebe62bd5b7b6273f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dkpankaj1/toastr/zipball/5451ae60eda24016990f8d09ebe62bd5b7b6273f",
+                "reference": "5451ae60eda24016990f8d09ebe62bd5b7b6273f",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^10.0|^11.0|^12.0",
+                "php": "^8.1|^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dkpankaj1\\Toastr\\ToastrServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dkpankaj1\\Toastr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dipankar Kumar Pankaj",
+                    "email": "dipankarpankaj38@gmail.com"
+                }
+            ],
+            "description": "A lightweight and customizable Toastr notification service for Laravel.",
+            "support": {
+                "issues": "https://github.com/dkpankaj1/toastr/issues",
+                "source": "https://github.com/dkpankaj1/toastr/tree/1.2.0"
+            },
+            "time": "2025-03-30T09:17:48+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -8123,12 +8171,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

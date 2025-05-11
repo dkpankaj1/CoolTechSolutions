@@ -3,9 +3,9 @@
 use App\Http\Controllers\Admin\AccountController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\ComplainController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ComplainController;
-use App\Http\Controllers\AdminComplainController;
+
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
@@ -23,13 +23,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::group(['middleware' => 'admin:auth'], function () {
 
         Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
-        Route::get('allcomplain',[AdminComplainController::class,'show'])->name('allcomplain');
-         Route::get('createcomplain',[AdminComplainController::class,'create'])->name('createcomplain');
-        Route::get('editcomplain/{id}',[AdminComplainController::class,'edit'])->name('editcomplain');
-        
+
 
         // register roure 
-
+        Route::resource('complains', ComplainController::class);
         // -----
 
         Route::group(['prefix' => 'account', 'as' => 'account.'], function () {
