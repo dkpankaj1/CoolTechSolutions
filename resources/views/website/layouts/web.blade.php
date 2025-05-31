@@ -2,9 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Heating & Air Conditioning Repair & Installation Services</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>CoolingPoint - AC, Fridge & Washing Machine Repair, Installation & Service in Lucknow | Call +91-8418951771
+    </title>
+    <meta name="title"
+        content="CoolingPoint - AC, Fridge & Washing Machine Repair, Installation & Service in Lucknow | Call +91-8418951771" />
+    <meta name="description"
+        content="CoolingPoint provides expert repair, installation, and service for AC, fridge, and washing machines in Priti Nagar, Lucknow. Fast, reliable solutions. Call +91-8418951771." />
+    <meta name="keywords"
+        content="AC repair Lucknow, AC installation Lucknow, fridge repair Lucknow, washing machine repair Lucknow, CoolingPoint Lucknow, home appliance repair, air conditioner service near me, refrigerator repair Priti Nagar, washing machine installation, LG AC service, Samsung fridge repair, Whirlpool washing machine repair, appliance technician Lucknow, AC maintenance, cooling solutions Lucknow, fast appliance repair, Priti Nagar home appliance service" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coolingpoint.in" />
+    <meta property="og:title"
+        content="CoolingPoint - AC, Fridge & Washing Machine Repair, Installation & Service in Lucknow" />
+    <meta property="og:description"
+        content="Expert repair, installation, and service for AC, fridge, and washing machines in Lucknow. Visit CoolingPoint in Priti Nagar or call +91-8418951771 for trusted solutions." />
+    <meta property="og:site_name" content="CoolingPoint" />
+    <meta property="og:image" content="{{ asset('assets/images/preview.png') }}" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://coolingpoint.in" />
+    <meta name="twitter:title"
+        content="CoolingPoint - AC, Fridge & Washing Machine Repair, Installation & Service in Lucknow" />
+    <meta name="twitter:description"
+        content="Fast and reliable AC, fridge, and washing machine repair, installation, and service in Lucknow. Call +91-8418951771 for expert appliance solutions." />
+    <meta name="twitter:image" content="{{ asset('assets/images/preview.png') }}" />
+    <meta name="twitter:site" content="@CoolingPoint" />
+
+    <!-- Yahoo & General SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="CoolingPoint Team" />
+    <meta name="language" content="en" />
+    <meta name="rating" content="General" />
+
+    <!-- JSON-LD Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "CoolingPoint",
+            "image": "{{ asset('assets/images/preview.png') }}",
+            "url": "https://coolingpoint.in",
+            "telephone": "+91-8418951771",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Shop No 4, Maurya Market, Priti Nagar",
+                "addressLocality": "Lucknow",
+                "addressRegion": "Uttar Pradesh",
+                "postalCode": "226021",
+                "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Sa 09:00-20:00",
+            "description": "CoolingPoint provides expert repair, installation, and maintenance services for air conditioners, fridges, and washing machines in Priti Nagar, Lucknow. Call +91-8418951771 for fast, reliable service.",
+            "sameAs": [
+                "https://www.facebook.com/CoolingPoint",
+                "https://twitter.com/CoolingPoint"
+            ],
+            "serviceType": [
+                "Air Conditioner Repair",
+                "Air Conditioner Installation",
+                "Air Conditioner Maintenance",
+                "Refrigerator Repair",
+                "Refrigerator Maintenance",
+                "Washing Machine Repair",
+                "Washing Machine Installation",
+                "Washing Machine Maintenance"
+            ]
+        }
+    </script>
+
+
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,600i,700" rel="stylesheet">
     <!--favicon-->
@@ -50,8 +124,10 @@
                 <div class="col-md-9 col-sm-8 col-xs-12">
                     <div class="header_contact text-right">
                         <ul class="hd_contact">
-                            <li><i class="icon-placeholder"></i> Address<a href="">Shop No 4 Maurya Market PritiNagar, Lucknow </a></li>
-                            <li><i class="icon-phone-call"></i> Call Now <a href="tel:8418951771">+91-8418951771</a></li>
+                            <li><i class="icon-placeholder"></i> Address<a href="">Shop No 4 Maurya Market
+                                    PritiNagar, Lucknow </a></li>
+                            <li><i class="icon-phone-call"></i> Call Now <a href="tel:8418951771">+91-8418951771</a>
+                            </li>
                             <li><i class="icon-clock"></i> Open Hours<a href=""> 9am - 9pm</a></li>
                         </ul>
                     </div>
@@ -105,7 +181,8 @@
             <div class="container">
                 <div class="col-md-4 col-sm-4">
                     <div class="footer_contact_width text-left">
-                        <p><i class="icon-placeholder"></i> Address <span>Shop No 4 Maurya Market PritiNagar, Lucknow </span></p>
+                        <p><i class="icon-placeholder"></i> Address <span>Shop No 4 Maurya Market PritiNagar, Lucknow
+                            </span></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
@@ -129,7 +206,9 @@
                         <div class="footer_textwidget textwidget">
                             <h2>About coolTechSolutions</h2>
                             <p>
-                                Cooling Point offers expert air conditioning repair and installation, plus top-quality service for washing machines and refrigerators. With years of experience, we provide reliable, affordable solutions to keep your home cool and appliances running smoothly.
+                                Cooling Point offers expert air conditioning repair and installation, plus top-quality
+                                service for washing machines and refrigerators. With years of experience, we provide
+                                reliable, affordable solutions to keep your home cool and appliances running smoothly.
                             </p>
                             <h4>Call Us</h4>
                             <span class="number">+91-8418951771</span>

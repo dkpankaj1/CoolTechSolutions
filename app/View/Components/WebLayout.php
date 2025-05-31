@@ -4,16 +4,24 @@ namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
+use Illuminate\Http\Request;
 use Illuminate\View\Component;
+use Illuminate\Support\Facades\Log;
 
 class WebLayout extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(Request $request)
     {
-        //
+        Log::info('User Activity', [
+            'ip' => $request->ip(),
+            'user_agent' => $request->userAgent(),
+            'time' => now()->toDateTimeString(),
+            'url' => $request->fullUrl(),
+            'method' => $request->method(),
+        ]);
     }
 
     /**
